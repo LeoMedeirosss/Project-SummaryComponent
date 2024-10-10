@@ -38,11 +38,71 @@ body{
 
 .right{
     background-color: #ffffff;
-    border-radius: 10px;
     width: 400px;
     height: 570px;
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: column;
+    border: #9b99ef ;
+    padding: 5px; /* Cria espaço para o gradiente */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+.inner-right{
+    width: 400px;
+    height: 570px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #ffffff; /* Cor de fundo do conteúdo interno */
+    border-radius: 15px; /* Bordas arredondadas no interior */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.stat{
+    width: 60px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 55px;
+}
+
+.red {
+    background-color: #ffe5e5;
+  }
+  
+  .yel {
+    background-color: #ffffe5;
+  }
+  
+  .green {
+    background-color: #f2fbfa;
+  }
+  
+  .blue {
+    background-color: #f3f3fd;
+  }
+
+h4{
+    color: #c2b9fe;
+}
+
+h1{
+    color: #fefefc;
+}
+
+.of{
+    color: #6a5cfe;
+}
+
+h3{
+    color: #f6f7fe;
+}
+
+.you{
+    color :#9b99ef;
 }
