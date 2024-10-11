@@ -28,8 +28,8 @@ body{
 .left{
     background-color: #4433f1;
     width: 400px;
-    height: 570px;
-    border-radius: 10px;
+    height: 530px;
+    border-radius: 35px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -39,27 +39,27 @@ body{
 .right{
     background-color: #ffffff;
     width: 400px;
-    height: 570px;
+    height: 530px;
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: column;
     border: #9b99ef ;
-    padding: 5px; /* Cria espaço para o gradiente */
-    border-radius: 20px; /* Bordas arredondadas */
+    padding: 5px;
+    border-radius: 30px;
 }
 
 .inner-right{
     width: 400px;
-    height: 570px;
+    height: 530px;
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: column;
-    background-color: #ffffff; /* Cor de fundo do conteúdo interno */
-    border-radius: 15px; /* Bordas arredondadas no interior */
-    padding: 20px; /* Espaçamento interno */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .stat{
@@ -89,22 +89,35 @@ body{
 
 h4{
     color: #c2b9fe;
+    padding: 35px;
+    font-size: 23px;
 }
 
 h1{
     color: #fefefc;
+    font-size: 71px;
+    padding-top: 18px;
 }
 
 .of{
-    color: #6a5cfe;
+    color: #786cff;
+    position: relative;
+    bottom: 6px;
 }
 
 h3{
     color: #f6f7fe;
+    font-size: 35px;
+    padding-top: 80px;
 }
 
 .you{
-    color :#9b99ef;
+    color :#b0aff3;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 80px;
+    height: 100%;
 }
 
 img{
