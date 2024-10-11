@@ -34,6 +34,8 @@ body{
     align-items: center;
     align-content: center;
     flex-direction: column;
+    background: linear-gradient(180deg, #884cff, #4c00ff);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .right{
@@ -128,13 +130,11 @@ h4{
 h1{
     color: #fefefc;
     font-size: 71px;
-    padding-top: 18px;
 }
 
 .of{
     color: #786cff;
     position: relative;
-    bottom: 6px;
 }
 
 h3{
@@ -144,11 +144,11 @@ h3{
 }
 
 .you{
-    color :#b0aff3;
-    font-size: 16px;
+    color :#b8b6f9;
+    font-size: 15px;
     text-align: center;
     font-weight: bold;
-    padding: 10px 80px;
+    padding: 10px 70px;
     height: 100%;
 }
 
@@ -178,4 +178,24 @@ img{
     transform: scale(1.04);
     background-color: #583cf7;
     color: #e9e8fc;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.circulo{
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.059), rgba(0,0,0,0.2));
+    border-radius: 50%;
+    width: 150px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
