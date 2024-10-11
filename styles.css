@@ -78,17 +78,45 @@ body{
 .red{
     background-color: #f8e8e8;
 }
+
+.reaction{
+    font-weight: bold;
+    color: #e68686;
+    padding-left: 7px;
+    padding-right: 125px;
+}
   
 .yel{
     background-color: #fbfbe8;
 }
-  
+
+.memory{
+    font-weight: bold;
+    color: #edd486;
+    padding-left: 7px;
+    padding-right: 124px;
+}
+
 .green{
     background-color: #f2fbfa;
 }
   
+.verbal{
+    font-weight: bold;
+    color: #5dc5a7;
+    padding-left: 7px;
+    padding-right: 138px;
+}
+
 .blue{
     background-color: #f3f3fd;
+}
+
+.visual{
+    font-weight: bold;
+    color: #5461bb;
+    padding-left: 7px;
+    padding-right: 138px;
 }
 
 h4{
