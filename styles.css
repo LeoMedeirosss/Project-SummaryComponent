@@ -166,8 +166,16 @@ img{
     color: #d9dde4;
     font-weight: bold;
     font-size: 20px;
+    transition: 0.7s;
+    cursor: pointer;
 }
 
 .button{
     padding-top: 25px;
+}
+
+.continue:hover{
+    transform: scale(1.04);
+    background-color: #583cf7;
+    color: #e9e8fc;
 }
