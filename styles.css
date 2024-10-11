@@ -69,23 +69,27 @@ body{
     border-radius: 10px;
     width: 300px;
     height: 55px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
 }
 
-.red {
-    background-color: #ffe5e5;
-  }
+.red{
+    background-color: #f8e8e8;
+}
   
-  .yel {
-    background-color: #ffffe5;
-  }
+.yel{
+    background-color: #fbfbe8;
+}
   
-  .green {
+.green{
     background-color: #f2fbfa;
-  }
+}
   
-  .blue {
+.blue{
     background-color: #f3f3fd;
-  }
+}
 
 h4{
     color: #c2b9fe;
@@ -122,4 +126,20 @@ h3{
 
 img{
     padding-top: 7px;
+}
+
+.continue{
+    width: 60px;
+    margin: 10px 0;
+    border-radius: 30px;
+    width: 300px;
+    height: 55px;
+    background-color: #303b59;
+    color: #d9dde4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button{
+    padding-top: 25px;
 }
